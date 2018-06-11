@@ -12,6 +12,16 @@ namespace AppFarming
 		public MainPage()
 		{
 			InitializeComponent();
-		}
-	}
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
+
+        async private void Crear(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CreateUser());
+        }
+        async private void Entrar(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Login());
+        }
+    }
 }

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFarming.Login"
+             Title="Login">
+
+    <StackLayout Orientation="Vertical" Padding="20,50,20,20" BackgroundColor="White">
+        <Label Text="Ingreso de Sesion" TextColor="Green" FontSize="Large" HorizontalOptions="Center" Margin="0,0,20,0"/>
+        <Image Source="https://cdn2.iconfinder.com/data/icons/security-2-1/512/user_access-512.png" WidthRequest="50" HeightRequest="50"/>                 
+        <Entry x:Name="entryUser" Placeholder="Usuario"/>
+        <Entry x:Name="entryPass" Placeholder="Constraseña" IsPassword="True"/>
+        <Button Text="Entrar" HorizontalOptions="FillAndExpand" BackgroundColor="Green" TextColor="White" Clicked="ClickButtonSignIn" BorderRadius="40"/>
+        <Label Margin="0,20,0,0" Text="¿No tienes una cuenta?" HorizontalOptions="Center" TextColor="Black"/>
+        <Button Text="Crear una cuenta aqui" TextColor="Green" BackgroundColor="White" HorizontalOptions="Center" Clicked="ClickButtonCreateUser" BorderRadius="30"/>
+    </StackLayout>
+</ContentPage>

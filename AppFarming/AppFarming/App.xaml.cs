@@ -14,7 +14,8 @@ namespace AppFarming
 			InitializeComponent();
 
 			MainPage = new AppFarming.MainPage();
-		}
+            MainPage = new NavigationPage(new MainPage());
+        }
 
 		protected override void OnStart ()
 		{
