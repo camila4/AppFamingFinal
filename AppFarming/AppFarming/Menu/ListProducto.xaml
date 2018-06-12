@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFarming.Menu.ListProducto">
+    
+    
+    <StackLayout Padding="10, 20, 10 ,0" BackgroundColor="WhiteSmoke">
+         <Image Source="http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Status-mail-task-icon.png"/>
+
+        <Label Text="Lista de Productos" FontSize="Large"/>
+        <ListView x:Name="listViewProducto">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        
+                        <ViewCell.ContextActions>
+                            <MenuItem  CommandParameter="{Binding .}" Text="Actualizar" />
+                            <MenuItem  Clicked="DeleteProducto" CommandParameter="{Binding Id}" Text="Eliminar" IsDestructive="True" />
+                        </ViewCell.ContextActions>
+
+                        <StackLayout Orientation="Horizontal" Padding="15,0">                            
+                            <StackLayout>
+                                <Image Source="{Binding Image}" HeightRequest="50" WidthRequest="50"/>
+                            </StackLayout>
+                            <StackLayout  Orientation="Vertical">
+                                <Label Text="{Binding Name}" />
+                                <Label Text="{Binding Valor}" />
+
+                        </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Crear Producto"  Clicked="CrearProducto" BackgroundColor="Green" BorderRadius="50" Margin="30"/>
+    </StackLayout>
+</ContentPage>

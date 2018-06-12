@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFarming.Items.Page1"
+             Title="HOME">
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="12">
+                <!--estrellas de calificacion-->
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="estrella" HeightRequest="15" WidthRequest="15" HorizontalOptions="EndAndExpand"/>
+                    <Image Source="estrella" HeightRequest="15" WidthRequest="15" HorizontalOptions="End"/>
+                    <Image Source="estrella" HeightRequest="15" WidthRequest="15" HorizontalOptions="End"/>
+                    <Image Source="estrella" HeightRequest="15" WidthRequest="15" HorizontalOptions="End"/>
+                    <Image Source="estrella2" HeightRequest="15" WidthRequest="15" HorizontalOptions="End"/>
+                </StackLayout>
+                <!--Mensaje de hortalizas-->
+                <StackLayout 
+                        Orientation="Vertical"
+                        HorizontalOptions="FillAndExpand"
+                        HeightRequest="40">
+                    <Label
+                            HorizontalOptions="CenterAndExpand"
+                            Text="Hortalizas Frescas Podemos Encontrarlas Todo El Años Sin Problema, Aca En Farming App ."
+                            VerticalTextAlignment="Center"
+                            HorizontalTextAlignment="Center"
+                            FontSize="20"
+                            TextColor="#252D1F"/>
+
+                </StackLayout>
+                <!--Imagenes de productos-->
+                <ScrollView Orientation="Horizontal">
+                    <StackLayout Orientation="Horizontal">
+
+                        <Image Source="http://www.lechugas.es/imagenes/LECHUGA%20ICEBERG.png" HeightRequest="150" WidthRequest="150"/>
+                        <Image Source="http://www.bonduelle.es/media/zoo/images/coliflor_b713ad9cd8749aa01a3b54a1c9e49281.jpg" HeightRequest="200" WidthRequest="200"/>
+                        <Image Source="http://www.bonduelle.es/media/zoo/images/repollo_019ff9004515e558579c0e902340c857.jpg" HeightRequest="200" WidthRequest="200"/>
+                        <Image Source="http://www.bonduelle.es/media/zoo/images/acelga_a33db5e20058b6460ef2ebc2ab75f411.jpg" HeightRequest="200" WidthRequest="200"/>
+                        <Image Source="http://www.bonduelle.es/media/zoo/images/brocoli_d56901396a7addabfc9cb6645367b0c0.jpg" HeightRequest="200" WidthRequest="200"/>
+
+                    </StackLayout>
+                </ScrollView>
+                <!--precio-->
+                <StackLayout
+                Orientation="Horizontal"
+                BackgroundColor="#DAE8DA">
+
+                    <StackLayout 
+                        Orientation="Vertical"
+                        HorizontalOptions="FillAndExpand"
+                        HeightRequest="40"
+                        Padding="0,20,0,0">
+                        <Label
+                            HorizontalOptions="StartAndExpand"
+                            Text="Precio:"
+                            VerticalTextAlignment="Center"
+                            FontSize="16"
+                            TextColor="#89C332"/>
+
+                    </StackLayout>
+                    <StackLayout
+                        Orientation="Vertical"
+                        HorizontalOptions="FillAndExpand"
+                        Padding="0,20,0,5">
+                        <Label
+                            HorizontalOptions="StartAndExpand"
+                            Text="$ 1.500 libra."
+                            VerticalTextAlignment="Center"
+                            FontSize="20"
+                            TextColor="Red"/>
+                        <Label
+                            HorizontalOptions="StartAndExpand"
+                            Text="Envio Gratis en Pedidos Mayores a $ 50.000."
+                            VerticalTextAlignment="Center"
+                            FontSize="14"
+                            TextColor="Black"/>
+                    </StackLayout>
+
+                </StackLayout>
+                <!--estrellas de calificacion-->
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="estrella" HeightRequest="15" WidthRequest="15" HorizontalOptions="EndAndExpand"/>
+                    <Image Source="estrella" HeightRequest="15" WidthRequest="15" HorizontalOptions="End"/>
+                    <Image Source="estrella" HeightRequest="15" WidthRequest="15" HorizontalOptions="End"/>
+                    <Image Source="estrella" HeightRequest="15" WidthRequest="15" HorizontalOptions="End"/>
+                    <Image Source="estrella" HeightRequest="15" WidthRequest="15" HorizontalOptions="End"/>
+                </StackLayout>
+                <!--Mensaje de hortalizas-->
+                <StackLayout 
+                        Orientation="Vertical"
+                        HorizontalOptions="FillAndExpand"
+                        HeightRequest="40">
+                    <Label
+                            HorizontalOptions="CenterAndExpand"
+                            Text="Las Mejores Legumbres Podemos Encontrarlas Todo El Años Sin Problema, Aca En Farming App ."
+                            VerticalTextAlignment="Center"
+                            HorizontalTextAlignment="Center"
+                            FontSize="20"
+                            TextColor="#252D1F"/>
+
+                </StackLayout>
+                <!--Imagenes de productos-->
+                <ScrollView Orientation="Horizontal">
+                    <StackLayout Orientation="Horizontal">
+
+                        <Image Source="http://www.bonduelle.es/media/zoo/images/patata_6b5c53c916c9e098d41715380dc447c9.jpg" HeightRequest="200" WidthRequest="200"/>
+                        <Image Source="http://www.bonduelle.es/media/zoo/images/zanahorias_d93d2f56b061a96d970e088600dde8f1.jpg" HeightRequest="200" WidthRequest="200"/>
+                        <Image Source="http://www.bonduelle.es/media/zoo/images/rabano_0e4f6ce22a4ac1dc6e3c8d32c62ef1d3.jpg" HeightRequest="200" WidthRequest="200"/>
+                        <Image Source="http://www.bonduelle.es/media/zoo/images/maiz_0ff76b3ff9e6c7dfcf1c2abf9add1b86.jpg" HeightRequest="200" WidthRequest="200"/>
+                        <Image Source="http://www.bonduelle.es/media/zoo/images/guisante_878d7a78a0dd60010ad0497387f19f5c.jpg" HeightRequest="200" WidthRequest="200"/>
+
+                    </StackLayout>
+                </ScrollView>
+                <!--precio-->
+                <StackLayout
+                Orientation="Horizontal"
+                BackgroundColor="#DAE8DA">
+
+                    <StackLayout 
+                        Orientation="Vertical"
+                        HorizontalOptions="FillAndExpand"
+                        HeightRequest="40"
+                        Padding="0,20,0,0">
+                        <Label
+                            HorizontalOptions="StartAndExpand"
+                            Text="Precio:"
+                            VerticalTextAlignment="Center"
+                            FontSize="16"
+                            TextColor="#89C332"/>
+
+                    </StackLayout>
+                    <StackLayout
+                        Orientation="Vertical"
+                        HorizontalOptions="FillAndExpand"
+                        Padding="0,20,0,5">
+                        <Label
+                            HorizontalOptions="StartAndExpand"
+                            Text="$ 3.500 libra."
+                            VerticalTextAlignment="Center"
+                            FontSize="20"
+                            TextColor="Red"/>
+                        <Label
+                            HorizontalOptions="StartAndExpand"
+                            Text="Envio Gratis en Pedidos Mayores a $ 50.000."
+                            VerticalTextAlignment="Center"
+                            FontSize="14"
+                            TextColor="Black"/>
+                    </StackLayout>
+
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

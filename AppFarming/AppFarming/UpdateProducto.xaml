@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFarming.UpdateProducto">
+    <StackLayout Orientation="Vertical" Padding="20,50,20,20">
+        
+        <Label Text="Actualizar contacto" TextColor="Blue" FontSize="Large" HorizontalOptions="Center" Margin="0,0,0,20"/>
+
+        <Image Source="{Binding Image}" WidthRequest="100" HeightRequest="100"/>
+        <Entry x:Name="entryNameUc" Placeholder="Nombre" Text="{Binding Name}"/>
+        <Entry x:Name="entryValorUc" Placeholder="Valor" Text="{Binding Valor}"/>
+        <Entry x:Name="entryCantidadUc" Placeholder="Cantidad" Text="{Binding Cantidad}"/>
+        <Entry x:Name="entryDescripcionUc" Placeholder="Descripcion" Text="{Binding Descripcion}"/>
+        <Button Text="Actualizar contacto" />
+    </StackLayout>
+</ContentPage>

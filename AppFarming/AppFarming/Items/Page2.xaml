@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFarming.Items.Page2"
+           Title="Recetas Especiales">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="1"
+                         Orientation="Vertical">
+                <!--Mensaje de recetas-->
+                <StackLayout 
+                        Orientation="Vertical"
+                        HorizontalOptions="FillAndExpand"
+                        HeightRequest="80">
+                    <Label
+                            HorizontalOptions="CenterAndExpand"
+                            Text="Descubre Las Mas Deliciosas Recetas."
+                            VerticalTextAlignment="Center"
+                            HorizontalTextAlignment="Center"
+                            FontSize="30"
+                            TextColor="#89C332"
+                            FontAttributes="Bold"/>
+
+
+                </StackLayout>
+                <BoxView
+                        HeightRequest="2"
+                        WidthRequest="60"
+                        BackgroundColor="Gray"
+                    HorizontalOptions="Center"/>
+                <BoxView
+                        HeightRequest="2"
+                        WidthRequest="45"
+                        BackgroundColor="Gray"
+                    HorizontalOptions="Center"/>
+                <BoxView
+                        HeightRequest="2"
+                        WidthRequest="30"
+                        BackgroundColor="Gray"
+                    HorizontalOptions="Center"/>
+                <StackLayout 
+                        Orientation="Vertical"
+                        HorizontalOptions="FillAndExpand">
+                    <Label
+                            HorizontalOptions="CenterAndExpand"
+                            Text="Ensalada deBrocoli y Aguacate."
+                            VerticalTextAlignment="Center"
+                            HorizontalTextAlignment="Start"
+                            FontSize="16"
+                            TextColor="#89C332"/>
+
+
+                </StackLayout>
+                <!--Imagenes de productos-->
+                <StackLayout Orientation="Horizontal"
+                             Margin="0"
+                             Padding="0"
+                             HeightRequest="175">
+                    <ContentView HorizontalOptions="CenterAndExpand">
+                        <Image  Source="http://www.bonduelle.es/images/ensalada_edamame_post.jpg" HeightRequest="350" WidthRequest="350"/>
+                    </ContentView>
+                </StackLayout>
+                <!--Receta-->
+                <StackLayout
+                Orientation="Horizontal"
+                BackgroundColor="#DAE8DA">
+                    <StackLayout
+                        Orientation="Vertical"
+                        HorizontalOptions="FillAndExpand"
+                        Padding="0,20,0,10">
+                        <Label
+                            HorizontalOptions="FillAndExpand"
+                            Text="Lo primero es cocer el brócoli, mientras se prepara partimos la lechuga, troceamos el aguacate en cuadrados y le ponemos unas tiras de pimiento rojo. Una vez cocido el brócoli, lo escurrimos y lo mezclamos junto al resto de ingredientes en un bol, a continuación lo aliñamos al gusto.."
+                            VerticalTextAlignment="Center"
+                            HorizontalTextAlignment="Center"
+                            FontSize="16"
+                            TextColor="#245A00"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <BoxView
+                        HeightRequest="2"
+                        WidthRequest="60"
+                        BackgroundColor="Gray"
+                    HorizontalOptions="Center"/>
+                <BoxView
+                        HeightRequest="2"
+                        WidthRequest="45"
+                        BackgroundColor="Gray"
+                    HorizontalOptions="Center"/>
+                <BoxView
+                        HeightRequest="2"
+                        WidthRequest="30"
+                        BackgroundColor="Gray"
+                    HorizontalOptions="Center"/>
+                <StackLayout 
+                        Orientation="Vertical"
+                        HorizontalOptions="FillAndExpand">
+                    <Label
+                            HorizontalOptions="CenterAndExpand"
+                            Text=" Noodles picantes con edamame."
+                            VerticalTextAlignment="Center"
+                            HorizontalTextAlignment="Start"
+                            FontSize="16"
+                            TextColor="#89C332"/>
+
+
+                </StackLayout>
+                <!--Imagenes de productos-->
+                <StackLayout Orientation="Horizontal"
+                             Margin="0"
+                             Padding="0"
+                             HeightRequest="175">
+                    <ContentView HorizontalOptions="CenterAndExpand">
+                        <Image  Source="http://www.bonduelle.es/images/noodles_edamame_post.jpg" HeightRequest="350" WidthRequest="350"/>
+                    </ContentView>
+                </StackLayout>
+                <!--Receta-->
+                <StackLayout
+                Orientation="Horizontal"
+                BackgroundColor="#DAE8DA">
+                    <StackLayout
+                        Orientation="Vertical"
+                        HorizontalOptions="FillAndExpand"
+                        Padding="0,20,0,10">
+                        <Label
+                            HorizontalOptions="FillAndExpand"
+                            Text="Lo primero que vamos a preparar es el caldo, la base para la receta. Ponemos en una olla exprés 2 litros de agua, a continuación, echamos cebolla, ajo, un poco de jengibre y sal. La dejamos hervir durante una hora aproximadamente.
+
+                            Cuando esté listo, separamos el caldo y le añadimos un toque de salsa picante y un chorrito de aceite de sésamo.
+
+                            El siguiente paso para preparar esta receta de edamame, es hacer los noodles. Cocemos los fideos y en unos 10-15 minutos lo tenemos hecho. Juntamos los fideos con el caldo y le añadimos la lata de Un Toque De Edamame ¡Que aproveche!"
+                            VerticalTextAlignment="Center"
+                            HorizontalTextAlignment="Center"
+                            FontSize="16"
+                            TextColor="#245A00"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <BoxView
+                        HeightRequest="2"
+                        WidthRequest="60"
+                        BackgroundColor="Gray"
+                    HorizontalOptions="Center"/>
+                <BoxView
+                        HeightRequest="2"
+                        WidthRequest="45"
+                        BackgroundColor="Gray"
+                    HorizontalOptions="Center"/>
+                <BoxView
+                        HeightRequest="2"
+                        WidthRequest="30"
+                        BackgroundColor="Gray"
+                    HorizontalOptions="Center"/>
+                <StackLayout 
+                        Orientation="Vertical"
+                        HorizontalOptions="FillAndExpand">
+                    <Label
+                            HorizontalOptions="CenterAndExpand"
+                            Text="Muéstrales una cena con apariencia atractiva."
+                            VerticalTextAlignment="Center"
+                            HorizontalTextAlignment="Start"
+                            FontSize="16"
+                            TextColor="#89C332"/>
+
+
+                </StackLayout>
+                <!--Imagenes de productos-->
+                <StackLayout Orientation="Horizontal"
+                             Margin="0"
+                             Padding="0"
+                             HeightRequest="175">
+                    <ContentView HorizontalOptions="CenterAndExpand">
+                        <Image  Source="http://www.bonduelle.es/images/leon_verduras.jpg" HeightRequest="350" WidthRequest="350"/>
+                    </ContentView>
+                </StackLayout>
+                <!--Receta-->
+                <StackLayout
+                Orientation="Horizontal"
+                BackgroundColor="#DAE8DA">
+                    <StackLayout
+                        Orientation="Vertical"
+                        HorizontalOptions="FillAndExpand"
+                        Padding="0,20,0,10">
+                        <Label
+                            HorizontalOptions="FillAndExpand"
+                            Text="Los niños son curiosos por naturaleza, si les animas a que te ayuden a elaborar platos sencillos y coloridos que atraigan su atención como puede ser una ensalada de espinacas, tomate, queso fresco, remolacha y maíz, no solo conseguirás que se diviertan sino que además posiblemente se sientan muy orgullosos de su trabajo, ocasión perfecta para que les animes a cenársela."
+                            VerticalTextAlignment="Center"
+                            HorizontalTextAlignment="Center"
+                            FontSize="16"
+                            TextColor="#245A00"/>
+                    </StackLayout>
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

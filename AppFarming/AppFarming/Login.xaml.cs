@@ -29,7 +29,7 @@ namespace AppFarming
 
             if (Application.Current.Properties.ContainsKey("id_user"))
             {
-                ShowWindowListContacts();
+                Inicio();
             }
         }
 
@@ -47,7 +47,7 @@ namespace AppFarming
             if (users[0].Success)
             {
                 Application.Current.Properties["id_user"] = users[0].Id;
-                ShowWindowListContacts();
+               Inicio();
             }
             else
             {
@@ -60,10 +60,14 @@ namespace AppFarming
             await Navigation.PushModalAsync(new CreateUser());
         }
 
-        async private void ShowWindowListContacts()
+        async private void Inicio()
         {
             await Navigation.PushModalAsync(new Inicio());
         }
 
+        //async private void Entrar(object sender, EventArgs e)
+        //{
+        //    await Navigation.PushAsync(new Ingresar());
+        //}
     }
 }

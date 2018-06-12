@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFarming.Menu.CreateProducto">
+
+
+    <StackLayout Orientation="Vertical" Padding="20,50,20,20" BackgroundColor="White">
+        <Label Text="Ingresar Producto Nuevo" TextColor="Blue" FontSize="Large" HorizontalOptions="Center" Margin="0,0,0,20"/>
+        <Image Source="https://image.flaticon.com/icons/png/512/10/10122.png" WidthRequest="100" HeightRequest="100"/>
+        <Entry x:Name="entryNameCc" Placeholder="Nombre"/>
+        <Entry x:Name="entryValorCc" Placeholder="Valor"/>
+        <Entry x:Name="entryCantidadCc" Placeholder="Cantidad"/>
+        <Entry x:Name="entryDescripcionCc" Placeholder="Descripcion"/>
+        <Button Text="Ingresar Producto" BackgroundColor="Green" Clicked="IngresarProducto" BorderRadius="50"/>
+        
+    </StackLayout>
+</ContentPage>

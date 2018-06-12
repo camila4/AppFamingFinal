@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFarming.Items.Carrito">
+    <StackLayout Orientation="Vertical"
+                     BackgroundColor="#DAE8DA"
+                     Spacing="0">
+
+        <ContentView VerticalOptions="EndAndExpand">
+            <Image
+                        WidthRequest="100"
+                        HeightRequest="100"
+                        Source="carrito.png"
+                        VerticalOptions="EndAndExpand" 
+                        HorizontalOptions="CenterAndExpand"/>
+        </ContentView>
+
+        <Label Text="Tu Carrito esta Vacio!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Medium"/>
+
+        <Button
+                    Text="Continuar Comprando"
+                    Clicked="Regresar"
+                    BorderRadius="20"
+                    BackgroundColor="#89C332"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="Center"
+                    TextColor="White"/>
+
+    </StackLayout>
+</ContentPage>

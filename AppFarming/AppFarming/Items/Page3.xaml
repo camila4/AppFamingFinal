@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFarming.Items.Page3"
+           Title="Pagos FarminApp">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Orientation="Vertical"
+                     Spacing="0">
+                <StackLayout
+                Orientation="Horizontal"
+                Padding="0,40,0,20"
+                BackgroundColor="#89C332">
+                    <Label
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="CenterAndExpand"
+                            Text="Saldo Disponible"
+                            VerticalTextAlignment="Start"
+                            HorizontalTextAlignment="Center"
+                            FontSize="Large"
+                            TextColor="White"/>
+                </StackLayout>
+                <StackLayout
+                
+                Orientation="Horizontal"
+                Padding="0,40,0,20"
+                BackgroundColor="#89C332">
+
+                    <Label
+                            HorizontalOptions="CenterAndExpand"
+                            Text="$ 0.00"
+                            VerticalTextAlignment="Start"
+                            HorizontalTextAlignment="Center"
+                            FontSize="50"
+                            TextColor="White"/>
+                </StackLayout>
+                <StackLayout
+                
+                Orientation="Horizontal"
+                Padding="0,40,0,10"
+                BackgroundColor="#DAE8DA">
+
+                    <Label
+                            HorizontalOptions="CenterAndExpand"
+                            Text="Deposita Efectivo a Tu Cuenta de FarmingApp. ¡ No Necesita Tarjeta de Credito o Cuenta de Banco."
+                            VerticalTextAlignment="Start"
+                            HorizontalTextAlignment="Center"
+                            FontSize="14"
+                            TextColor="Black"/>
+                </StackLayout>
+                <!--Puntos de Pago -->
+                <ScrollView Orientation="Horizontal" >
+                    <StackLayout
+                Orientation="Horizontal">
+                        <ContentView>
+                            <Image
+                    WidthRequest="80"
+                    HeightRequest="80"
+                    Source="http://www.cruzrojacolombiana.org/sites/default/files/efecty.png"/>
+
+                        </ContentView>
+                        <ContentView>
+                            <Image
+                    WidthRequest="80"
+                    HeightRequest="80"
+                    Source="https://gane.gruposamant.com/wp-content/uploads/2015/12/super-giros1.png"/>
+                        </ContentView>
+                        <ContentView>
+                            <Image
+                    WidthRequest="80"
+                    HeightRequest="80"
+                    Source="https://www.danielalvarez.com.co/wp-content/uploads/2018/01/Logo-dimonex-970x480.png"/>
+                        </ContentView>
+                        <ContentView>
+                            <Image
+                    WidthRequest="80"
+                    HeightRequest="80"
+                    Source="http://3.bp.blogspot.com/-8gqcc8IlFcs/Vfhg56qcAaI/AAAAAAAAQcw/HC7guZHJ47w/s1600/Logo%2BBaloto.jpg"/>
+                        </ContentView>
+                        <!--imagen de via-->
+                        <ContentView>
+                            <Image
+                    WidthRequest="80"
+                    HeightRequest="80"
+                    Source="https://tuquejasuma.com/media/cache/2c/30/2c303b7a3ff51a9e023ad871fe3caeef.png"/>
+                        </ContentView>
+                        <!--imagen de servientrega-->
+                        <ContentView>
+                            <Image
+                    WidthRequest="80"
+                    HeightRequest="80"
+                    Source="https://www.maggi.com.co/mercadazo/images/puntos-servientrega.png"/>
+
+                        </ContentView>
+                        <!--imagen de exito-->
+                        <ContentView>
+                            <Image
+                    WidthRequest="80"
+                    HeightRequest="80"
+                    Source="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Almacenes_exito_logo.svg/1200px-Almacenes_exito_logo.svg.png"/>
+
+                        </ContentView>
+                    </StackLayout>
+                </ScrollView>
+                <StackLayout
+                
+                Orientation="Horizontal"
+                Padding="0,40,0,10"
+                BackgroundColor="#DAE8DA"
+                HorizontalOptions="FillAndExpand">
+
+                    <Label
+                            HorizontalOptions="CenterAndExpand"
+                            Text="¡ obtén un bono de 30%!."
+                            VerticalTextAlignment="Start"
+                            HorizontalTextAlignment="Center"
+                            FontSize="16"
+                            TextColor="Black"/>
+                </StackLayout>
+                <StackLayout
+                
+                Orientation="Horizontal"
+                Padding="0,40,0,10"
+                BackgroundColor="#DAE8DA"
+                HorizontalOptions="EndAndExpand">
+
+                    <Label
+                            HorizontalOptions="CenterAndExpand"
+                            Text="¡ Tiempo Limitado! Sólo Válido Con Tu Primer Deposito."
+                            VerticalTextAlignment="Start"
+                            HorizontalTextAlignment="Center"
+                            FontSize="16"
+                            TextColor="LightGray"/>
+                </StackLayout>
+                <!--10.0 -->
+                <StackLayout
+                Orientation="Horizontal"
+                BackgroundColor="#DAE8DA"
+                Margin="2">
+
+                    <StackLayout 
+                        Orientation="Vertical"
+                        HorizontalOptions="FillAndExpand"
+                        HeightRequest="40">
+                        <Label
+                            HorizontalOptions="CenterAndExpand"
+                            Text="$ 10.000 Pesos."
+                            VerticalTextAlignment="Center"
+                            FontSize="20"
+                            TextColor="#252D1F"/>
+
+                    </StackLayout>
+                    <StackLayout
+                        Orientation="Vertical"
+                        VerticalOptions="FillAndExpand">
+                        <Button
+                             
+                             Text="Agregar a Farming App"
+                             TextColor="White"
+                             FontSize="14"
+                             BackgroundColor="#89C332"
+                             HorizontalOptions="Center"
+                             BorderRadius="20"/>
+
+                    </StackLayout>
+
+                </StackLayout>
+                <!--20.0 -->
+                <StackLayout
+                Orientation="Horizontal"
+                BackgroundColor="#DAE8DA"
+                Margin="2">
+
+                    <StackLayout 
+                        Orientation="Vertical"
+                        HorizontalOptions="FillAndExpand"
+                        HeightRequest="40">
+                        <Label
+                            HorizontalOptions="CenterAndExpand"
+                            Text="$ 20.000 Pesos."
+                            VerticalTextAlignment="Center"
+                            FontSize="20"
+                            TextColor="#252D1F"/>
+
+                    </StackLayout>
+                    <StackLayout
+                        Orientation="Vertical"
+                        VerticalOptions="FillAndExpand">
+                        <Button
+                             
+                             Text="Agregar a Farming App"
+                             TextColor="White"
+                             FontSize="14"
+                             BackgroundColor="#89C332"
+                             HorizontalOptions="Center"
+                             BorderRadius="20"/>
+
+                    </StackLayout>
+
+                </StackLayout>
+                <!--30.0 -->
+                <StackLayout
+                Orientation="Horizontal"
+                BackgroundColor="#DAE8DA"
+                Margin="2">
+
+                    <StackLayout 
+                        Orientation="Vertical"
+                        HorizontalOptions="FillAndExpand"
+                        HeightRequest="40">
+                        <Label
+                            HorizontalOptions="CenterAndExpand"
+                            Text="$ 30.000 Pesos."
+                            VerticalTextAlignment="Center"
+                            FontSize="20"
+                            TextColor="#252D1F"/>
+
+                    </StackLayout>
+                    <StackLayout
+                        Orientation="Vertical"
+                        VerticalOptions="FillAndExpand">
+                        <Button
+                             
+                             Text="Agregar a Farming App"
+                             TextColor="White"
+                             FontSize="14"
+                             BackgroundColor="#89C332"
+                             HorizontalOptions="Center"
+                             BorderRadius="20"/>
+
+                    </StackLayout>
+
+                </StackLayout>
+                <!--40.0 -->
+                <StackLayout
+                Orientation="Horizontal"
+                BackgroundColor="#DAE8DA"
+                Margin="2">
+
+                    <StackLayout 
+                        Orientation="Vertical"
+                        HorizontalOptions="FillAndExpand"
+                        HeightRequest="40">
+                        <Label
+                            HorizontalOptions="CenterAndExpand"
+                            Text="$ 40.000 Pesos."
+                            VerticalTextAlignment="Center"
+                            FontSize="20"
+                            TextColor="#252D1F"/>
+
+                    </StackLayout>
+                    <StackLayout
+                        Orientation="Vertical"
+                        VerticalOptions="FillAndExpand">
+                        <Button
+                             
+                             Text="Agregar a Farming App"
+                             TextColor="White"
+                             FontSize="14"
+                             BackgroundColor="#89C332"
+                             HorizontalOptions="Center"
+                             BorderRadius="20"/>
+
+                    </StackLayout>
+
+                </StackLayout>
+                <!--50.0 -->
+                <StackLayout
+                Orientation="Horizontal"
+                BackgroundColor="#DAE8DA"
+                Margin="2">
+
+                    <StackLayout 
+                        Orientation="Vertical"
+                        HorizontalOptions="FillAndExpand"
+                        HeightRequest="40">
+                        <Label
+                            HorizontalOptions="CenterAndExpand"
+                            Text="$ 50.000 Pesos."
+                            VerticalTextAlignment="Center"
+                            FontSize="20"
+                            TextColor="#252D1F"/>
+
+                    </StackLayout>
+                    <StackLayout
+                        Orientation="Vertical"
+                        VerticalOptions="FillAndExpand">
+                        <Button
+                             
+                             Text="Agregar a Farming App"
+                             TextColor="White"
+                             FontSize="Small"
+                             BackgroundColor="#89C332"
+                             HorizontalOptions="Center"
+                             BorderRadius="14"/>
+
+                    </StackLayout>
+
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

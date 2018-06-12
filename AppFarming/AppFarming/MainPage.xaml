@@ -6,24 +6,28 @@
 
     <StackLayout BackgroundColor="#89C332">
         <StackLayout VerticalOptions="FillAndExpand" Padding="10" Margin="10" BackgroundColor="White">
-            <Image Source="Farming1.png" HeightRequest="200" WidthRequest="150" VerticalOptions="Center" Margin="0,40,0,0"/>
+            <Image Source="Farming1.png" HeightRequest="150" WidthRequest="150" VerticalOptions="Center" Margin="0,40,0,0"/>
             <StackLayout Orientation="Vertical" Spacing="0" Margin="10" Padding="10" VerticalOptions="CenterAndExpand">
 
 
                 <Button
                     Text="Crear Cuenta"
+                    BorderRadius="50"
                     FontSize="Medium"
                     HorizontalOptions="Center"
                     TextColor="White"
                     BackgroundColor="Green"
                     Clicked="Crear"/>
+                
                 <Label
                     Margin="0,20,0,0"
                     Text="¿Ya tienes una cuenta?"
                      HorizontalOptions="Center"
                     TextColor="Black"/>
+                
                 <Button
                     Text="Entrar"
+                     BorderRadius="50"
                     TextColor="Green"
                     BackgroundColor="White"
                      HorizontalOptions="Center"

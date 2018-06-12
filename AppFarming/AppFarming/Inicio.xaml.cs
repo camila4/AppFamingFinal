@@ -9,15 +9,19 @@ using Xamarin.Forms.Xaml;
 
 namespace AppFarming
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Inicio : MasterDetailPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Inicio : MasterDetailPage
     {
-		public Inicio ()
-		{
-			InitializeComponent ();
+        public Inicio()
+        {
+            InitializeComponent();
             this.Master = new Master();
             this.Detail = new NavigationPage(new Detail());
             NavigationPage.SetHasNavigationBar(this, false);
+
         }
-	}
+
+        
+
+    }
 }
