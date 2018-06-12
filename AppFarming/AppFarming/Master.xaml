@@ -33,7 +33,7 @@
         </StackLayout>
 
         <StackLayout Orientation="Horizontal" Margin="10">
-            <Image Source="inicio.png" WidthRequest="25" HeightRequest="25"/>
+            <Image Source="usuario.png" WidthRequest="25" HeightRequest="25"/>
             <Button BorderRadius="50" Text="Usuarios" BackgroundColor="#DAE8DA"  TextColor="Black" HorizontalOptions="FillAndExpand" Clicked="ListarUsuarios"/>
         </StackLayout>
 
