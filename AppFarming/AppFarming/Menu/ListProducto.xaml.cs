@@ -66,8 +66,6 @@ namespace AppFarming.Menu
             ListDataProductos();
         }
 
-
-
         //Actualizar Profucto
 
         //public void ClickUpdateContact(object sender, EventArgs e)
@@ -88,22 +86,25 @@ namespace AppFarming.Menu
         //    };
 
         //    Produc(produc);
-        //}
-        async public void ClickUpdateContact(object sender, EventArgs e)
-        {
-            await Navigation.PushModalAsync(new UpdateProducto());
-        }
+        //} 
+        
+            
         //async public void Produc(Produc produc)
         //{
         //    await Navigation.PushModalAsync(new UpdateProducto(produc));
         //}
 
+
+        async public void ClickUpdateContact(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new UpdateProducto());
+        }
+      
+
         async public void showWindowMainPage()
         {
             await Navigation.PushModalAsync(new MainPage());
         }
-
-       
 
         async private void CrearProducto(object sender, EventArgs e)
         {
