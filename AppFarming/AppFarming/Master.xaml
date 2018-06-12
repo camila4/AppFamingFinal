@@ -11,7 +11,7 @@
             <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                 <Image Source="perfil.png" WidthRequest="100"/>
                 <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
-                    <Label Text="Ivan Andres Getial" FontSize="Medium"/>
+                    <Label Text="XXXXXX XXXXX" FontSize="Medium"/>
                     <Button  BorderRadius="50" Clicked="VerPerfil" Text="Ver Perfil" FontSize="Small" BackgroundColor="#89C332"/>
                 </StackLayout>
             </StackLayout>
@@ -23,7 +23,7 @@
         </StackLayout>
 
         <StackLayout Orientation="Horizontal" Margin="10">
-            <Image Source="buscar.png" WidthRequest="25" HeightRequest="25"/>
+            <Image Source="inicio.png" WidthRequest="25" HeightRequest="25"/>
             <Button  BorderRadius="50" Clicked="ListarProductos" Text="Listar Productos" BackgroundColor="#DAE8DA"  TextColor="Black" HorizontalOptions="FillAndExpand"/>
         </StackLayout>
 
@@ -33,9 +33,13 @@
         </StackLayout>
 
         <StackLayout Orientation="Horizontal" Margin="10">
+            <Image Source="inicio.png" WidthRequest="25" HeightRequest="25"/>
+            <Button BorderRadius="50" Text="Usuarios" BackgroundColor="#DAE8DA"  TextColor="Black" HorizontalOptions="FillAndExpand" Clicked="ListarUsuarios"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Margin="10">
             <Image Source="salida.png" WidthRequest="25" HeightRequest="25"/>
             <Button BorderRadius="50" Text="Cerrar sesión" BackgroundColor="#DAE8DA"  TextColor="Black" HorizontalOptions="FillAndExpand" Clicked="ClickButtonSignOff"/>
         </StackLayout>
-
     </StackLayout>
 </ContentPage>

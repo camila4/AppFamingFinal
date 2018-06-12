@@ -52,6 +52,12 @@ namespace AppFarming.Menu
 
         // Metodo para Eliminar Producto
 
+        public void ClickDeleteContact(object sender, EventArgs e)
+        {
+            var mi = ((MenuItem)sender);
+            DeleteProducto(mi.CommandParameter.ToString());
+        }
+
         async public void DeleteProducto(string position)
         {
             HttpResponseMessage response = null;
@@ -60,10 +66,14 @@ namespace AppFarming.Menu
             ListDataProductos();
         }
 
+
+
         //Actualizar Profucto
 
         //public void ClickUpdateContact(object sender, EventArgs e)
         //{
+
+
         //    var mi = sender as MenuItem;
         //    var item = mi.BindingContext as Produc;
 
@@ -77,9 +87,12 @@ namespace AppFarming.Menu
         //        Image = item.Image
         //    };
 
-        //    //Produc(produc);
+        //    Produc(produc);
         //}
-
+        async public void ClickUpdateContact(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new UpdateProducto());
+        }
         //async public void Produc(Produc produc)
         //{
         //    await Navigation.PushModalAsync(new UpdateProducto(produc));
@@ -90,10 +103,7 @@ namespace AppFarming.Menu
             await Navigation.PushModalAsync(new MainPage());
         }
 
-        async public void ClickUpdateContact(object sender, EventArgs e)
-        {
-            await Navigation.PushModalAsync(new UpdateProducto());
-        }
+       
 
         async private void CrearProducto(object sender, EventArgs e)
         {
