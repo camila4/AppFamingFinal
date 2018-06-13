@@ -18,7 +18,7 @@ namespace AppFarming
 			InitializeComponent ();
 		}
 
-        //Pagina Cerar Sesion ...****
+        //Pagina Cerar Sesion 
         public void ClickButtonSignOff(object sender, EventArgs e)
         {
             Application.Current.Properties.Clear();
