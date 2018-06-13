@@ -11,6 +11,6 @@
         <Entry x:Name="entryValorUc" Placeholder="Valor" Text="{Binding Valor}"/>
         <Entry x:Name="entryCantidadUc" Placeholder="Cantidad" Text="{Binding Cantidad}"/>
         <Entry x:Name="entryDescripcionUc" Placeholder="Descripcion" Text="{Binding Descripcion}"/>
-        <Button Text="Actualizar contacto" BorderRadius="50" Margin="30"/>
+        <Button Text="Actualizar contacto" BorderRadius="50" Margin="30" BackgroundColor="Green"/>
     </StackLayout>
 </ContentPage>

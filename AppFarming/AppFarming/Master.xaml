@@ -19,7 +19,7 @@
 
         <StackLayout Orientation="Horizontal" Margin="10">
             <Image Source="inicio.png" WidthRequest="25" HeightRequest="25"/>
-            <Button  BorderRadius="50"  Text="Inicio" BackgroundColor="#DAE8DA"  TextColor="Black" HorizontalOptions="FillAndExpand"/>
+            <Button  BorderRadius="50"  Clicked="inicioc" Text="Inicio" BackgroundColor="#DAE8DA"  TextColor="Black" HorizontalOptions="FillAndExpand"/>
         </StackLayout>
 
         <StackLayout Orientation="Horizontal" Margin="10">

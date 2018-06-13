@@ -26,17 +26,17 @@ namespace AppFarming
 
         {
             InitializeComponent();
-       
+      
         }
 
-  //      public UpdateProducto (Produc produc)
+        //      public UpdateProducto (Produc produc)
 
-		//{
-		//	InitializeComponent ();
-  //          this.Produc = produc;
-  //          BindingContext = produc;
-  //      }              
-       
+        //{
+        //	InitializeComponent ();
+        //          this.Produc = produc;
+        //          BindingContext = produc;
+        //      }              
+
 
         // Metodo para actualizar un contacto
         async public void ClickButtonUpdateContact(object sender, EventArgs e)

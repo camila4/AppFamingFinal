@@ -14,7 +14,7 @@
                     <ViewCell>
                         
                         <ViewCell.ContextActions>
-                            <MenuItem  Clicked="ClickUpdateContact" CommandParameter="{Binding .}" Text="Actualizar" />
+                            <MenuItem  Clicked="ClickUpdateContact1" CommandParameter="{Binding .}" Text="Actualizar" />
                             <MenuItem  Clicked="ClickDeleteContact" CommandParameter="{Binding Id}" Text="Eliminar" IsDestructive="True" />
                         </ViewCell.ContextActions>
 

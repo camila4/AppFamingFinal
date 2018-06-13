@@ -16,7 +16,7 @@
                 <Image
                     HorizontalOptions="CenterAndExpand"
                     WidthRequest="100"
-                    Source="http://takeaseathome.com/media/images/avatar-placeholder.png"/>
+                    Source="perfil.png"/>
             </StackLayout>
             <StackLayout
                     BackgroundColor="#DAE8DA"

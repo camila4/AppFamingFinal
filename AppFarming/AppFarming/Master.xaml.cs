@@ -60,6 +60,11 @@ namespace AppFarming
             await Navigation.PushModalAsync(new ListUsuario());
         }
 
+        async private void inicioc()
+        {
+            await Navigation.PushModalAsync(new Inicio());
+        }
+        
 
     }
 }
